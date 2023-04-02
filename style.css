@@ -97,6 +97,14 @@
     border: 2px solid var(--transparent-white);
   }
 
+  .sr-only {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
   /* MEDIA QUERIES */
 
   @media (min-width:800px){
